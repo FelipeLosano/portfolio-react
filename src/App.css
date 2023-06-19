@@ -20,5 +20,65 @@ body {
 
 .container {
 	padding: 0 150px;
-	height: 120vh;
+}
+
+.card {
+	padding: 0 100px;
+	background-color: var(--secondary);
+	border-radius: 15px;
+	color: var(--primary-font-color);
+}
+
+#Home {
+	margin: 50px 0;
+}
+
+.home {
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.div-img {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.div-title {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.div-title h1 {
+	font-size: 70px;
+}
+.div-title p {
+	font-size: 30px;
+}
+
+.home-img {
+	border-radius: 100%;
+	width: 50%;
+}
+
+.technologies {
+	height: 25vh;
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tec-title{
+	margin: 20px 0;
+}
+
+.tec-logos {
+
 }
