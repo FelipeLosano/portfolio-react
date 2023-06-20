@@ -1,10 +1,19 @@
-import { FaReact, FaNodeJs, FaJava } from 'react-icons/fa';
+import {
+	FaReact,
+	FaNodeJs,
+	FaJava,
+	FaHtml5,
+	FaCss3Alt,
+	FaGitAlt,
+	FaGithub,
+} from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { SiTypescript } from 'react-icons/si';
 import './App.css';
 
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
-	const tecSizes = 60;
 
 	return (
 		<div className='container'>
@@ -31,13 +40,31 @@ function App() {
 							<div className='tec-logos'>
 								<ul>
 									<li>
-										<FaReact color='#61dbfb' size={tecSizes} />
+										<FaHtml5 color='#e34c26' />
 									</li>
 									<li>
-										<FaNodeJs color='#3c873a' size={tecSizes} />
+										<FaCss3Alt color='#264de4' />
 									</li>
 									<li>
-										<FaJava color='#f89820' size={tecSizes} />
+										<IoLogoJavascript color='#F0DB4F' />
+									</li>
+									{/* <li>
+										<SiTypescript color='#007acc' />
+									</li> */}
+									<li>
+										<FaReact color='#61dbfb' />
+									</li>
+									<li>
+										<FaNodeJs color='#3c873a' />
+									</li>
+									<li>
+										<FaJava color='#f89820' />
+									</li>
+									<li>
+										<FaGitAlt color='#F1502F' />
+									</li>
+									<li>
+										<FaGithub color='#171515' />
 									</li>
 								</ul>
 							</div>
