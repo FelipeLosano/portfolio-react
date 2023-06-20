@@ -9,16 +9,16 @@ const NavBar = () => {
 			<nav>
 				<ul>
 					<li>
-						<a href='#Home'>Home</a>
+						<a href='#Home'>Início</a>
 					</li>
 					<li>
-						<a href='#About'>About</a>
+						<a href='#About'>Sobre</a>
 					</li>
 					<li>
-						<a href='#Projects'>Projects</a>
+						<a href='#Projects'>Projetos</a>
 					</li>
 					<li>
-						<a href='#Contact'>Contact</a>
+						<a href='#Contact'>Contato</a>
 					</li>
 				</ul>
 			</nav>

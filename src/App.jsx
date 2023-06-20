@@ -18,6 +18,7 @@ function App() {
 	return (
 		<div className='container'>
 			<header>
+				{/* TODO: Anchor navbar on top */}
 				<NavBar />
 			</header>
 
