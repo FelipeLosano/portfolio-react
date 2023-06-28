@@ -1,4 +1,4 @@
-import styles from './NavBar.module.css';
+import styles from './index.module.css';
 import { FaReact } from 'react-icons/fa';
 
 const NavBar = () => {
