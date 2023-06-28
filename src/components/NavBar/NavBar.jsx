@@ -4,7 +4,6 @@ import { FaReact } from 'react-icons/fa';
 const NavBar = () => {
 	return (
 		<div className={styles.navbar}>
-			{/* <img className={styles.logo} src='img\react-logo.png' alt='react-logo' /> */}
 			<FaReact className={styles.logo} />
 			<nav>
 				<ul>
