@@ -2,9 +2,9 @@
 
 :root {
 	--primary: #222831;
-	--secondary: #393e46;
-	--primary-font-color: #fff;
-	--secondary-font-color: #00adb5;
+	--secondary: #393E46;
+	--primary-font-color: #EEEEEE;
+	--border: #00ADB5;
 }
 
 * {
@@ -31,7 +31,7 @@ body {
 }
 
 #Home {
-	margin: 8% 0 5% 0;
+	margin: 5% 0;
 }
 
 #About {

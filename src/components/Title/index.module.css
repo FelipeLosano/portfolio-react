@@ -27,6 +27,9 @@
 .divTitle p {
 	font-size: 30px;
 }
+.title{
+	margin-bottom: 30px;
+}
 
 .homeImg {
 	border-radius: 100%;

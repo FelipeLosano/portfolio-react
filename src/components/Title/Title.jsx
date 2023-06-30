@@ -9,7 +9,7 @@ const Title = () => {
 				</div>
 				<div className={styles.divTitle}>
 					<h1>Felipe Losano</h1>
-					<p>Desenvolvedor Full-Stack</p>
+					<p className={styles.title}>Desenvolvedor Full-Stack</p>
 					<div className={styles.btnDiv}>
 						<Button
 							text='Github'

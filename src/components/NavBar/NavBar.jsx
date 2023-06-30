@@ -1,5 +1,6 @@
 import styles from './index.module.css';
 import { FaReact } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
 	return (
@@ -8,16 +9,37 @@ const NavBar = () => {
 			<nav>
 				<ul>
 					<li>
-						<a href='#Home'>Início</a>
+						<Link
+							to='About'
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={300}
+						>
+							Sobre
+						</Link>
 					</li>
 					<li>
-						<a href='#About'>Sobre</a>
+						<Link
+							to='Projects'
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={300}
+						>
+							Projetos
+						</Link>
 					</li>
 					<li>
-						<a href='#Projects'>Projetos</a>
-					</li>
-					<li>
-						<a href='#Contact'>Contato</a>
+						<Link
+							to='Contact'
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={300}
+						>
+							Contato
+						</Link>
 					</li>
 				</ul>
 			</nav>
