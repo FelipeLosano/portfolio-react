@@ -6,22 +6,25 @@ const About = () => {
 		<div className={styles.AboutContainer}>
 			<div className={styles.cardAbout}>
 				<h2>Sobre mim</h2>
-				<p className={styles.aboutP}>
-					Tenho 19 anos, trabalho como suporte de T.I há 2 anos e atualmente
-					busco uma oportunidade na área de desenvolvimento. Estou no 4° período
-					do curso de Ciência da computação e estudo programação. Sou uma pessoa
-					curiosa e dedicada, sempre busco aprender mais!
-				</p>
+				<div className={styles.aboutP}>
+					<p>
+						Tenho 19 anos. Estou no 5° período do curso de Ciência da computação
+						e trabalho com T.I há 2 anos, atualmente como analista de suporte
+						Jr. Também estudo programação no meu tempo livre com o objetivo de
+						me tornar um desesenvolvedor fullstack.
+					</p>
+					<br />
+					<p>
+						Nesse tempo trabalhando com T.I, tive a oportunidade de trabalhar
+						com suporte técnico, manutenção de computadores, redes e servidores,
+						e também com desenvolvimento de sistemas web.
+					</p>
+				</div>
 				<Button text='Currículo' btnIcon='FaDownload' size={20} link='' />
 			</div>
-			<div className={styles.cardAbout}>
-				<h2>Experiência</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae
-					quod, beatae sint nobis optio atque ex modi qui ducimus aliquid?
-					Libero explicabo delectus voluptate quia magnam, aspernatur voluptates
-					ab.
-				</p>
+
+			<div className={styles.aboutImg}>
+				<img src='\img\programming-animate.svg' alt='' />
 			</div>
 		</div>
 	);
