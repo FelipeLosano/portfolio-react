@@ -2,9 +2,9 @@
 
 :root {
 	--primary: #222831;
-	--secondary: #393E46;
-	--primary-font-color: #EEEEEE;
-	--border: #00ADB5;
+	--secondary: #393e46;
+	--primary-font-color: #eeeeee;
+	--border: #00adb5;
 }
 
 * {
@@ -37,4 +37,9 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 5%;
+}
+
+#Projects {
+	margin-bottom: 5%;
 }

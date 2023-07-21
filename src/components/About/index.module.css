@@ -1,7 +1,7 @@
 .AboutContainer {
 	width: 100%;
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 .cardAbout {
 	padding: 5% 15%;
@@ -15,7 +15,7 @@
 	font-size: 20px;
 }
 .aboutImg {
-	display: flex;
+	padding: 5% 15%;
 	justify-content: center;
 }
 .cardAbout h2 {
