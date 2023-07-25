@@ -27,4 +27,38 @@
 .tecLogos ul li {
 	font-size: 4rem;
 	height: 20%;
+	color: #ffffff;
+}
+
+.techIconsHtml:hover {
+	color: #e34c26;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsCss:hover {
+	color: #264de4;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsJs:hover {
+	color: #f0db4f;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsTs:hover {
+	color: #007acc;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsJsx:hover {
+	color: #61dbfb;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsNode:hover {
+	color: #3c873a;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsGit:hover {
+	color: #f1502f;
+	transition: all 0.2s ease-in-out;
+}
+.techIconsGitHub:hover {
+	color: #171515;
+	transition: all 0.2s ease-in-out;
 }
