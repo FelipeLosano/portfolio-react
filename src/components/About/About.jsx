@@ -24,7 +24,9 @@ const About = () => {
 			</div>
 
 			<div className={styles.aboutImg}>
-				<img src='\img\programming-animate.svg' alt='' />
+				<a href='https://storyset.com/web' target='_blank' rel="noreferrer">
+					<img src='\img\programming-animate.svg' alt='' />
+				</a>
 			</div>
 		</div>
 	);
