@@ -19,28 +19,28 @@ const Technologies = () => {
 				<div className={styles.tecLogos}>
 					<ul>
 						<li>
-							<FaHtml5 color='#e34c26' />
+							<FaHtml5 className={styles.techIconsHtml} />
 						</li>
 						<li>
-							<FaCss3Alt color='#264de4' />
+							<FaCss3Alt className={styles.techIconsCss} />
 						</li>
 						<li>
-							<IoLogoJavascript color='#F0DB4F' />
+							<IoLogoJavascript className={styles.techIconsJs} />
 						</li>
 						{/* <li>
-										<SiTypescript color='#007acc' />
+										<SiTypescript className={styles.techIconsTs} />
 									</li> */}
 						<li>
-							<FaReact color='#61dbfb' />
+							<FaReact className={styles.techIconsJsx} />
 						</li>
 						<li>
-							<FaNodeJs color='#3c873a' />
+							<FaNodeJs className={styles.techIconsNode} />
 						</li>
 						<li>
-							<FaGitAlt color='#F1502F' />
+							<FaGitAlt className={styles.techIconsGit} />
 						</li>
 						<li>
-							<FaGithub color='#171515' />
+							<FaGithub className={styles.techIconsGitHub} />
 						</li>
 					</ul>
 				</div>
