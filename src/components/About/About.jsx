@@ -16,7 +16,7 @@ const About = () => {
 					<br />
 					<p>
 						Nesse tempo trabalhando com T.I, tive a oportunidade de trabalhar
-						com suporte técnico, manutenção de computadores, redes e servidores,
+						com suporte técnico, manutenção de computadores, redes, servidores,
 						e também com desenvolvimento de sistemas web.
 					</p>
 				</div>
