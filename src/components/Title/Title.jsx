@@ -2,7 +2,7 @@ import Button from '../Button/Button';
 import styles from './index.module.css';
 const Title = () => {
 	return (
-		<div className='card'>
+		<div className={styles.card}>
 			<div className={styles.home}>
 				<div className={styles.divImg}>
 					<img src='./img/Felipe.jpg' alt='' className={styles.homeImg} />

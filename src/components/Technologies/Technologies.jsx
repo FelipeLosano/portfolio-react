@@ -13,7 +13,7 @@ import styles from './index.module.css';
 
 const Technologies = () => {
 	return (
-		<div className='card'>
+		<div className={styles.card}>
 			<div className={styles.technologies}>
 				<h1 className={styles.tecTitle}>Tecnologias</h1>
 				<div className={styles.tecLogos}>

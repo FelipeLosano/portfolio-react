@@ -10,22 +10,28 @@ import ScrollBtn from './components/ScrollBtn/ScrollBtn';
 function App() {
 	return (
 		<div className='container'>
+			
 			<header>
 				<NavBar />
 			</header>
 
 			<main>
+
 				<section id='Home'>
 					<Title />
 					<Technologies />
 				</section>
+
 				<section id='About'>
 					<About />
 				</section>
+
 				<section id='Projects'>
-					<Projects />
+					<Projects title='' description='' img=''/>
 				</section>
+
 				<ScrollBtn />
+				
 			</main>
 
 			<footer></footer>

@@ -1,0 +1,11 @@
+.card {
+	padding: 3% 8%;
+	background-color: var(--secondary);
+	border-radius: 15px;
+	color: var(--primary-font-color);
+	box-shadow: #000 0px 0px 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+	
+}

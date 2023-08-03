@@ -22,13 +22,6 @@ body {
 	padding: 0 10%;
 }
 
-.card {
-	padding: 0 8%;
-	background-color: var(--secondary);
-	border-radius: 15px;
-	color: var(--primary-font-color);
-}
-
 #Home {
 	margin: 5% 0;
 }

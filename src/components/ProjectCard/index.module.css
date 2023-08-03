@@ -1,0 +1,55 @@
+.projectCard {
+	height: 100%;
+	background-color: #535961;
+	padding: 4%;
+	border-radius: 10px;
+}
+
+.options {
+	display: flex;
+	justify-content: start;
+	height: 10px;
+	gap: 5px;
+}
+.red {
+	background-color: #ff605c;
+	width: 10px;
+	border-radius: 100%;
+}
+.yellow {
+	background-color: #ffbd44;
+	width: 10px;
+	border-radius: 100%;
+}
+.green {
+	background-color: #00ca4e;
+	width: 10px;
+	border-radius: 100%;
+}
+
+.project {
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+}
+
+.imgDiv img {
+	width: 100%;
+	height: 180px;
+	border-radius: 10px;
+}
+
+.projectDetails {
+height: 70px;
+}
+
+.btnContainer {
+	display: flex;
+	gap: 20px;
+	padding: 0 30px;
+	margin-top: 10px;
+	justify-content: center;
+}

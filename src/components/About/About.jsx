@@ -20,7 +20,7 @@ const About = () => {
 						e também com desenvolvimento de sistemas web.
 					</p>
 				</div>
-				<Button text='Currículo' btnIcon='FaDownload' size={20} link='' />
+				<Button text='Currículo' btnIcon='FaDownload' size={20} link='./FelipeLosano.pdf' />
 			</div>
 
 			<div className={styles.aboutImg}>
