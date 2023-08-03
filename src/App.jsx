@@ -5,18 +5,17 @@ import Title from './components/Title/Title';
 import Technologies from './components/Technologies/Technologies';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 import ScrollBtn from './components/ScrollBtn/ScrollBtn';
 
 function App() {
 	return (
 		<div className='container'>
-			
 			<header>
 				<NavBar />
 			</header>
 
 			<main>
-
 				<section id='Home'>
 					<Title />
 					<Technologies />
@@ -27,11 +26,14 @@ function App() {
 				</section>
 
 				<section id='Projects'>
-					<Projects title='' description='' img=''/>
+					<Projects />
+				</section>
+
+				<section id='Contact'>
+					<Contact />
 				</section>
 
 				<ScrollBtn />
-				
 			</main>
 
 			<footer></footer>
