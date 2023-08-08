@@ -1,5 +1,4 @@
 .projectCard {
-	height: 100%;
 	background-color: #535961;
 	padding: 4%;
 	border-radius: 15px;
@@ -44,13 +43,22 @@
 }
 
 .projectDetails {
-height: 70px;
+	height: 70px;
+}
+.projectDetails h1 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+.projectDetails p {
+	font-size: 14px;
+	color: #fff;
 }
 
 .btnContainer {
 	display: flex;
 	gap: 20px;
 	padding: 0 30px;
-	margin-top: 10px;
 	justify-content: center;
 }
+

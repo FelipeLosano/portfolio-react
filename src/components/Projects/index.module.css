@@ -17,3 +17,17 @@ h2 {
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 50px;
 }
+
+@media (max-width: 1024px) {
+	.divProjetos {
+		grid-template-columns: 1fr 1fr;
+		gap: 50px;
+	}
+}
+
+@media (max-width: 425px) {
+	.divProjetos {
+		grid-template-columns: 1fr;
+		gap: 50px;
+	}
+}
