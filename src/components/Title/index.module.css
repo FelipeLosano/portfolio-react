@@ -43,6 +43,7 @@
 	border-radius: 100%;
 	width: 50%;
 	height: 70%;
+	box-shadow: #000 0px 0px 10px;
 }
 
 .btnDiv {

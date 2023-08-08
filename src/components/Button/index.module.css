@@ -1,5 +1,6 @@
 .btn {
 	color: white;
+	background-color: transparent;
 	padding: 15px 10px;
 	display: flex;
 	gap: 20px;

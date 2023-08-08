@@ -1,0 +1,78 @@
+.card {
+	padding: 3% 8%;
+	background-color: var(--secondary);
+	border-radius: 15px;
+	color: var(--primary-font-color);
+	box-shadow: #000 0px 0px 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card h2 {
+	font-size: 2rem;
+}
+
+.formDiv {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.formDiv form {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.inptStyle {
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid var(--primary-font-color);
+	background-color: transparent;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	resize: none;
+}
+
+.inptStyle:focus {
+	outline: none;
+}
+
+.btn {
+	color: white;
+	background-color: transparent;
+	padding: 15px 10px;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 15px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 50%;
+}
+.btn:hover {
+	background-color: #fff;
+	color: var(--primary);
+}
+
+.errorSpan {
+	color: red;
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+}

@@ -15,7 +15,7 @@ const Technologies = () => {
 	return (
 		<div className={styles.card}>
 			<div className={styles.technologies}>
-				<h1 className={styles.tecTitle}>Tecnologias</h1>
+				<h2 className={styles.tecTitle}>Tecnologias</h2>
 				<div className={styles.tecLogos}>
 					<ul>
 						<li>

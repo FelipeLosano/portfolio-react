@@ -11,9 +11,9 @@ const Button = ({ text, btnIcon, size, link }) => {
 				<FaLinkedin size={size} />
 			) : btnIcon === 'FaGlobe' ? (
 				<FaGlobe size={size} />
-			) : (
+			) : btnIcon === 'FaDownload' ? (
 				<FaDownload size={size} />
-			)}
+			) : null}
 			{text ? <p>{text}</p> : null}
 		</a>
 	);
@@ -21,9 +21,9 @@ const Button = ({ text, btnIcon, size, link }) => {
 
 Button.propTypes = {
 	text: PropTypes.string,
-	btnIcon: PropTypes.string.isRequired,
-	size: PropTypes.number.isRequired,
-	link: PropTypes.string.isRequired,
+	btnIcon: PropTypes.string,
+	size: PropTypes.number,
+	link: PropTypes.string,
 };
 
 export default Button;
