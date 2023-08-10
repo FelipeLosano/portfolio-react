@@ -1,21 +1,48 @@
-import styles from './NavBar.module.css';
+import styles from './index.module.css';
+import { FaReact } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
 	return (
-		<div className={styles.container}>
-			<div className={styles.navbar}>
-				<img
-					className={styles.logo}
-					src='img\react-logo.png'
-					alt='react-logo'
-				/>
-				<nav>
-					<a href='#Home'>Home</a>
-					<a href='#About'>About</a>
-					<a href='#Projects'>Projects</a>
-					<a href='#Contact'>Contact</a>
-				</nav>
-			</div>
+		<div className={styles.navbar}>
+			<FaReact className={styles.logo} />
+			<nav>
+				<ul>
+					<li>
+						<Link
+							to='About'
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={700}
+						>
+							Sobre
+						</Link>
+					</li>
+					<li>
+						<Link
+							to='Projects'
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={700}
+						>
+							Projetos
+						</Link>
+					</li>
+					<li>
+						<Link
+							to='Contact'
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={700}
+						>
+							Contato
+						</Link>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	);
 };
