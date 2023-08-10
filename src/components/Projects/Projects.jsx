@@ -17,7 +17,7 @@ const Projects = () => {
 					title='Projeto Form'
 					description='Projeto dedicado a criação de um fomulário de registro responsivo e 100% validado.'
 					img='./img/projeto2.webp'
-					website='/register-form'
+					website='/Projeto-Form'
 					github='https://github.com/FelipeLosano/Projeto-Form'
 				/>
 				<ProjectCard
