@@ -7,37 +7,42 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import ScrollBtn from './components/ScrollBtn/ScrollBtn';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
-		<div className='container'>
-			<header>
-				<NavBar />
-			</header>
+		<>
+			<div className='container'>
+				<header>
+					<NavBar />
+				</header>
 
-			<main>
-				<section id='Home'>
-					<Title />
-					<Technologies />
-				</section>
+				<main>
+					<section id='Home'>
+						<Title />
+						<Technologies />
+					</section>
 
-				<section id='About'>
-					<About />
-				</section>
+					<section id='About'>
+						<About />
+					</section>
 
-				<section id='Projects'>
-					<Projects />
-				</section>
+					<section id='Projects'>
+						<Projects />
+					</section>
 
-				<section id='Contact'>
-					<Contact />
-				</section>
+					<section id='Contact'>
+						<Contact />
+					</section>
 
-				<ScrollBtn />
-			</main>
+					{window.innerWidth > 500 && <ScrollBtn />}
+				</main>
+			</div>
 
-			<footer></footer>
-		</div>
+			<footer>
+				<Footer />
+			</footer>
+		</>
 	);
 }
 

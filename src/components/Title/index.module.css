@@ -28,6 +28,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	text-align: center;
 }
 .divTitle h1 {
 	font-size: 70px;
@@ -50,4 +51,29 @@
 	display: flex;
 	width: 100%;
 	gap: 50px;
+}
+
+@media (max-width: 1024px) {
+	.divImg {
+		display: none;
+	}
+
+	.divTitle {
+		width: 100%;
+	}
+
+	.btnDiv {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.divTitle p {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 425px) {
+	.divTitle p {
+		font-size: 20px;
+	}
 }

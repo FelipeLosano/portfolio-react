@@ -1,0 +1,23 @@
+.container {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: var(--secondary);
+}
+
+.container p {
+	color: var(--primary-font-color);
+	font-size: 1.2rem;
+}
+
+.container a {
+	color: var(--primary-font-color);
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+.container a:hover {
+	color: var(--border);
+}

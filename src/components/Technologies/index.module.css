@@ -1,3 +1,11 @@
+.card {
+	padding: 0 8%;
+	background-color: var(--secondary);
+	border-radius: 15px;
+	color: var(--primary-font-color);
+	box-shadow: #000 0px 0px 10px;
+}
+
 .technologies {
 	height: 25%;
 	margin-top: 4.5%;
@@ -9,14 +17,6 @@
 	font-size: 20px;
 }
 
-.card {
-	padding: 0 8%;
-	background-color: var(--secondary);
-	border-radius: 15px;
-	color: var(--primary-font-color);
-	box-shadow: #000 0px 0px 10px;
-}
-
 .tecTitle {
 	margin-bottom: 50px;
 	font-size: 2rem;
@@ -26,48 +26,49 @@
 	width: 100%;
 	display: flex;
 	align-items: center;
-}
-.tecLogos ul {
-	width: 100%;
-	display: flex;
 	justify-content: center;
-	gap: 3rem;
+	gap: 70px;
 }
-.tecLogos ul li {
-	font-size: 4rem;
-	height: 20%;
-	color: #ffffff;
+.tecLogos > * {
+	transition: all 0.2s ease-in-out;
+	width: 5%;
+	height: 5%;
 }
 
 .techIconsHtml:hover {
 	color: #e34c26;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsCss:hover {
 	color: #264de4;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsJs:hover {
 	color: #f0db4f;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsTs:hover {
 	color: #007acc;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsJsx:hover {
 	color: #61dbfb;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsNode:hover {
 	color: #3c873a;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsGit:hover {
 	color: #f1502f;
-	transition: all 0.2s ease-in-out;
 }
 .techIconsGitHub:hover {
 	color: #171515;
-	transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+	.tecLogos {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 10px 0;
+	}
+	.tecLogos > * {
+		width: 70%;
+		height: 70%;
+	}
 }

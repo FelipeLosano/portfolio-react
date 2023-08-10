@@ -32,3 +32,18 @@ a::after {
 a:hover {
 	color: var(--border);
 }
+
+@media (max-width: 425px) {
+	.navbar {
+		flex-direction: column;
+	}
+	ul {
+		margin-top: 1rem;
+	}
+	.logo {
+		font-size: 30px;
+	}
+	a {
+		font-size: 20px;
+	}
+}

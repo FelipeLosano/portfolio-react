@@ -17,32 +17,14 @@ const Technologies = () => {
 			<div className={styles.technologies}>
 				<h2 className={styles.tecTitle}>Tecnologias</h2>
 				<div className={styles.tecLogos}>
-					<ul>
-						<li>
-							<FaHtml5 className={styles.techIconsHtml} />
-						</li>
-						<li>
-							<FaCss3Alt className={styles.techIconsCss} />
-						</li>
-						<li>
-							<IoLogoJavascript className={styles.techIconsJs} />
-						</li>
-						{/* <li>
-										<SiTypescript className={styles.techIconsTs} />
-									</li> */}
-						<li>
-							<FaReact className={styles.techIconsJsx} />
-						</li>
-						<li>
-							<FaNodeJs className={styles.techIconsNode} />
-						</li>
-						<li>
-							<FaGitAlt className={styles.techIconsGit} />
-						</li>
-						<li>
-							<FaGithub className={styles.techIconsGitHub} />
-						</li>
-					</ul>
+					<FaHtml5 className={styles.techIconsHtml} />
+					<FaCss3Alt className={styles.techIconsCss} />
+					<IoLogoJavascript className={styles.techIconsJs} />
+					{/* <SiTypescript className={styles.techIconsTs} /> */}
+					<FaReact className={styles.techIconsJsx} />
+					<FaNodeJs className={styles.techIconsNode} />
+					<FaGitAlt className={styles.techIconsGit} />
+					<FaGithub className={styles.techIconsGitHub} />
 				</div>
 			</div>
 		</div>
