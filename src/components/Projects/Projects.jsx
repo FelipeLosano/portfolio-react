@@ -23,7 +23,7 @@ const Projects = () => {
 				<ProjectCard
 					title='Em Breve'
 					description='Em breve mais projetos!'
-					img='./img/aguarde_em_breve.png'
+					img='./img/loading.jpg'
 					website=''
 					github='https://github.com/FelipeLosano/'
 				/>
