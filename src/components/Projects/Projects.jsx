@@ -21,11 +21,11 @@ const Projects = () => {
 					github='https://github.com/FelipeLosano/Projeto-Form'
 				/>
 				<ProjectCard
-					title='Em Breve'
-					description='Em breve mais projetos!'
-					img='./img/loading.jpg'
-					website=''
-					github='https://github.com/FelipeLosano/'
+					title='Pokedex'
+					description='Projeto dedicado a criação de uma pokédex.'
+					img='./img/pokedex.webp'
+					website='https://felipelosano.github.io/js-developer-pokedex/'
+					github='https://github.com/FelipeLosano/js-developer-pokedex/'
 				/>
 			</div>
 		</div>
