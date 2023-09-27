@@ -27,7 +27,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 70px;
+	gap: 40px;
 }
 .tecLogos > * {
 	transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@
 .techIconsTs:hover {
 	color: #007acc;
 }
-.techIconsJsx:hover {
+.techIconsReact:hover {
 	color: #61dbfb;
 }
 .techIconsNode:hover {
@@ -58,6 +58,12 @@
 }
 .techIconsGitHub:hover {
 	color: #171515;
+}
+.techIconsAngular:hover {
+	color: #a6120d;
+}
+.techIconsJava:hover {
+	color: #f89820;
 }
 
 @media (max-width: 1024px) {
