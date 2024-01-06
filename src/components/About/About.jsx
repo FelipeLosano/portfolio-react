@@ -8,8 +8,8 @@ const About = () => {
 				<h2>Sobre mim</h2>
 				<div className={styles.aboutP}>
 					<p>
-						Tenho 19 anos. Estou no 5° período do curso de Ciência da computação
-						e trabalho com T.I há 2 anos, atualmente como analista de suporte
+						Tenho 20 anos. Estou no 6° período do curso de Ciência da computação
+						e trabalho com T.I há 3 anos, atualmente como analista de suporte
 						Jr. Também estudo programação no meu tempo livre com o objetivo de
 						me tornar um desesenvolvedor fullstack.
 					</p>
